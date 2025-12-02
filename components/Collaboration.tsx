@@ -19,7 +19,10 @@ const Collaboration: React.FC = () => {
   };
 
   return (
-    <section id="collab" className="bg-brand-bg py-20 border-t border-neutral-200/60">
+<section
+  id="contact"
+  className="bg-brand-bg py-20 border-t border-neutral-200/60"
+>
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-2 items-center">
           {/* Left: Message + benefits */}

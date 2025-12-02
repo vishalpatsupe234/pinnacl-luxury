@@ -3,12 +3,15 @@ import Image from "next/image";
 
 const AboutPinnacl: React.FC = () => {
   return (
-    <section id="about-pinnacl" className="bg-white text-brand-black py-20 border-t border-neutral-200/70">
+<section
+  id="about"
+  className="bg-white text-brand-black py-20 border-t border-neutral-200/70"
+>
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
           {/* Left: Image */}
           <div className="rounded-3xl overflow-hidden shadow-lg">
-            {/* Replace with your image: public/about-1.jpg */}
             <div className="relative h-72 md:h-96 w-full bg-gray-100">
               <Image
                 src="/about-1.jpg"
@@ -77,7 +80,7 @@ const AboutPinnacl: React.FC = () => {
           </div>
         </div>
 
-        {/* Small mission statement / divider */}
+        {/* Small mission statement */}
         <div className="mt-12 text-center max-w-3xl mx-auto text-sm text-brand-grey">
           <strong className="text-brand-black">Our promise:</strong> transparent guidance,
           curated choices and a singular focus — find a home that fits your future.
